@@ -1,31 +1,29 @@
 {
-  "name": "norrisbot",
-  "version": "1.0.5",
-  "description": "a Slack bot that kicks asses (roundhouse-kicks to be accurate...)",
+  "name": "stocksbot",
+  "version": "1.0.0",
+  "description": "a Slack bot that posts current stock prices",
   "keywords": [
     "Slack",
     "bot",
-    "Chuck Norris",
-    "jokes"
+    "Stocks"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lmammino/norrisbot"
+    "url": "https://github.com/kziel/stocksbot"
   },
   "bugs": {
-    "url": "https://github.com/lmammino/norrisbot/issues"
+    "url": "https://github.com/kziel/stocksbot/issues"
   },
-  "main": "lib/norrisbot.js",
+  "main": "lib/stocksbot.js",
   "bin": {
     "norrisbot": "bin/bot.js"
   },
   "scripts": {
-    "start": "node bin/bot.js",
-    "test": "node_modules/.bin/xo data/jokesFetcher.js bin/bot.js lib/norrisbot.js"
+    "start": "node bin/bot.js"
   },
   "author": {
-    "name": "Luciano Mammino",
-    "email": "lucianomammino@gmail.com"
+    "name": "Kris Ziel",
+    "email": "krisziel@mac.com"
   },
   "license": "MIT",
   "engines": {
@@ -35,21 +33,6 @@
     "async": "^1.4.1",
     "progress": "^1.1.8",
     "request": "^2.60.0",
-    "slackbots": "^0.3.0",
-    "sqlite3": "^3.0.10"
-  },
-  "devDependencies": {
-    "xo": "^0.5.2"
-  },
-  "xo": {
-    "space": 4,
-    "rules": {
-      "camelcase": [
-        2,
-        {
-          "properties": "never"
-        }
-      ]
-    }
+    "slackbots": "^0.3.0"
   }
 }
