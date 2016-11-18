@@ -9,10 +9,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kziel/stocksbot"
+    "url": "https://github.com/krisziel/stocksbot"
   },
   "bugs": {
-    "url": "https://github.com/kziel/stocksbot/issues"
+    "url": "https://github.com/krisziel/stocksbot/issues"
   },
   "main": "lib/stocksbot.js",
   "bin": {
